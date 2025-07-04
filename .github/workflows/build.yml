@@ -1,5 +1,5 @@
 name: Build NBD
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   Build-NBD:
     runs-on: ubuntu-latest
